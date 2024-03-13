@@ -1,29 +1,76 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+.mtj.tmp/
+hs_err_pid*
+
+### Package Files ###
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+.mvn/*
 
 ### Eclipse ###
-.apt_generated
+.metadata
 .classpath
-.factorypath
 .project
-.settings
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+
+### STS ###
+.apt_generated
+.factorypath
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+mvnw.*
+
+### IntelliJ ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
 
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### BlueJ files ### 
+*.ctxt
+
+### Log file ### 
+*.log
+
+### OS X ### 
 .DS_Store
+*.metadata
+*.metadata/
+.metadata/
