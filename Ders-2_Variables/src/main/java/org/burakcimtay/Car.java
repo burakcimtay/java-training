@@ -5,11 +5,11 @@ public class Car {
     public static void main(String[] args) {
 
         String marka = "Mercedes";
-        int kapi = 5;
+        byte kapi = 5;
         boolean trPlaka = true;
-        int motorGucu = 160;
+        short motorGucu = 160;
         String motorTuru = "Benzin";
-        String modelYili = "2015";
+        short modelYili = 2015;
         String rengi = "Beyaz";
 
         System.out.println("Marka: " + marka);
