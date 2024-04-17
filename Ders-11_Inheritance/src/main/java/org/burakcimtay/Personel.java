@@ -4,7 +4,7 @@ import lombok.*;
 
 @Setter
 @Getter
-@ToString
+@ToString(callSuper = true)
 @AllArgsConstructor
 @NoArgsConstructor
 public class Personel {

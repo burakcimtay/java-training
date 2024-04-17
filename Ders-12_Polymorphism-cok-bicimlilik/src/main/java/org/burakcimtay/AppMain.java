@@ -1,5 +1,9 @@
 package org.burakcimtay;
 
+import org.burakcimtay.departman.Mudur;
+import org.burakcimtay.departman.Muhasebeci;
+import org.burakcimtay.departman.Yazilimci;
+
 public class AppMain {
     public static void main(String[] args) {
 
