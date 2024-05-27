@@ -5,6 +5,7 @@ import org.burakcimtay.base.Hayvan;
 import org.burakcimtay.veteriner.Kedi;
 import org.burakcimtay.veteriner.Kopek;
 import org.burakcimtay.veteriner.Kus;
+import org.burakcimtay.veteriner.VanKedisi;
 
 public class AppMain {
     public static void main(String[] args) {
@@ -27,12 +28,21 @@ public class AppMain {
             System.out.println("Hayır " + kedi);
         }
 
-        Hayvan hayvan = new Hayvan();
+        Hayvan hayvanObj = new Hayvan();
 
-        // hayvan.sesVer();
+        // hayvanObj.sesVer();
 
         Ayi ayi = new Ayi();
         ayi.sesVer();
+
+        if(hayvanObj instanceof Hayvan){
+            System.out.println(hayvanObj);
+        }
+
+        hayvanObj = new VanKedisi();
+        ((VanKedisi) hayvanObj).yemekYe();
+
+        System.out.println(hayvanObj);
 
     }
 }

@@ -17,6 +17,9 @@ public class AppMain {
         taksi.ehliyet_durumu(true);
         taksi.ruhsat_durumu(false);
 
+        System.out.println("Taksi Ehliyet Durumu: " + (taksi.ruhsat_durumu(true) ? "VAR" : "YOK"));
+        System.out.println("Taksi Ruhsat Durumu: " + (taksi.ruhsat_durumu(false) ? "Var" : "YOK"));
+
 
     }
 }
